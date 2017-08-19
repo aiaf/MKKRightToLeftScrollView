@@ -1,4 +1,4 @@
-# MKKRightToLeftView
+# MKKRightToLeftScrollView
 MKKRightToLeftScrollView laterally inverts scrollers on macOS. This means that the vertical scrollers appear on the left side instead of the right.
 
 This is useful for content that is oriented from right-to-left, such as an `NSTextView` with Arabic text.
@@ -39,9 +39,3 @@ We override `[NSOverlayScroller _unsafeRectForPart:]` in `NSScroller+MKKRightToL
 
 ## Support
 https://github.com/aiaf/MKKRightToLeftScrollView/issues
-
-
-
-
-
-
